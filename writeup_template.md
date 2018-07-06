@@ -1,10 +1,6 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
----
 
 **Finding Lane Lines on the Road**
 
@@ -18,6 +14,10 @@ The goals / steps of this project are the following:
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
 ---
+
+### *My solution for this project can be found in the Jupyter notebook [here](https://github.com/baikeshen/CarND-LaneLines-P1/P1.ipynb)*
+
+
 
 ### Reflection
 
