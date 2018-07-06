@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 
 ---
 
-### *My solution for this project can be found in the Jupyter notebook [here](https://github.com/baikeshen/CarND-LaneLines-P1/P1.ipynb)*
+### *My solution for this project can be found in the Jupyter notebook [here](https://github.com/baikeshen/CarND-LaneLines-P1/blob/master/P1.ipynb)*
 
 
 
