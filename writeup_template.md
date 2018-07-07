@@ -48,7 +48,7 @@ End point of a single line is average x and y position of each point of left/rig
 
 It was also successfully tested on the provided videos: white and yellow (click to watch).
 
-[![White Basic]http://img.youtube.com/vi/pvyCv6XrOyY/0.jpg(https://youtu.be/Cd1qrCZvP9c "Self-Driving Car Nanodegree - P1: Finding Lane Lines - White Basic")
+[![White Basic](http://img.youtube.com/vi/pvyCv6XrOyY/0.jpg)](https://youtu.be/Cd1qrCZvP9c "Self-Driving Car Nanodegree - P1: Finding Lane Lines - White Basic")
 
 
 [![Yellow Basic](http://img.youtube.com/vi/qAYoS7JaMnk/0.jpg)](https://youtu.be/WXSAXp6eKEY "Self-Driving Car Nanodegree - P1: Finding Lane Lines - Yellow Basic")
