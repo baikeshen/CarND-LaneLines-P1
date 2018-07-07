@@ -55,16 +55,22 @@ It was also successfully tested on the provided videos: white and yellow (click 
 
 ### 2. Identify potential shortcomings with your current pipeline
 
+When applying my pipeline to the challenge video. It does not work so well. All these shortcomings render my pipeline unable to properly process and obtain annotations for the challenge video (click to play).
 
-One potential shortcoming would be a little shift of final single start point when there are too many horizontal lines in the bottom of image.
+[![Challenge Basic](http://img.youtube.com/vi/GubKeWtd768/0.jpg)](https://youtu.be/Slz_H4X-YMM "Self-Driving Car Nanodegree - P1: Finding Lane Lines - Challenge Basic")
 
-Another shortcoming could be the mask range is fixed and can not fit into every scenario such as Optional Challenge movie.
+The challenges are due to the following reasons:
+ a) It is hard to identify the yellow lines if they are not different from the ground
+ b) There are a lot of curved lines rather than straight lines in the challenge video
+ c) Variation of road surface adversly impacts the detection of yellow line and white line
+ d) My mask range is fixed and can not fit into every scenario.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to further average the start point of each frame and screen out the shift.
+potential improvements:
+1) Grayscale intensity thresholding was a good alternative for detecting white lanes and it even worked well for yellow lanes on the test image. However, for more challenging scenarios as the example we are dealing with, it turns out to be not enough, A more accurate thresholding for a bi-clor masking could be used.
+2) Applying outlier removing to prune the outlier lines. A slope-based filter could be applied to filter out any lines whose slope is too big or too small.
 
-Another potential improvement could be to use start point with average x and y position then to extrapolate the line with history average slope of each frame.
 
 
