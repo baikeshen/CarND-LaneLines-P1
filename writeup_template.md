@@ -60,9 +60,13 @@ When applying my pipeline to the challenge video. It does not work so well. All 
 [![Challenge Basic](http://img.youtube.com/vi/GubKeWtd768/0.jpg)](https://youtu.be/Slz_H4X-YMM "Self-Driving Car Nanodegree - P1: Finding Lane Lines - Challenge Basic")
 
 The challenges are due to the following reasons:
+
  a) It is hard to identify the yellow lines if they are not different from the ground
+ 
  b) There are a lot of curved lines rather than straight lines in the challenge video
+ 
  c) Variation of road surface adversly impacts the detection of yellow line and white line
+ 
  d) My mask range is fixed and can not fit into every scenario.
 
 
