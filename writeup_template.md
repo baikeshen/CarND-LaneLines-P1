@@ -48,10 +48,10 @@ End point of a single line is average x and y position of each point of left/rig
 
 It was also successfully tested on the provided videos: white and yellow (click to watch).
 
-[![White Basic](https://youtu.be/vi/Cd1qrCZvP9c/0.jpg)](https://youtu.be/Cd1qrCZvP9c "Self-Driving Car Nanodegree - P1: Finding Lane Lines - White Basic")
+[![White Basic]((https://youtu.be/Cd1qrCZvP9c "Self-Driving Car Nanodegree - P1: Finding Lane Lines - White Basic")
 
 
-[![White Basic](http://img.youtube.com/vi/qAYoS7JaMnk/0.jpg)](http://www.youtube.com/watch?v=qAYoS7JaMnk "Self-Driving Car Nanodegree - P1: Finding Lane Lines - Yellow Basic")
+[![Yellow Basic](http://img.youtube.com/vi/qAYoS7JaMnk/0.jpg)](https://youtu.be/WXSAXp6eKEY "Self-Driving Car Nanodegree - P1: Finding Lane Lines - Yellow Basic")
 
 ### 2. Identify potential shortcomings with your current pipeline
 
