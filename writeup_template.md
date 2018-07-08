@@ -33,15 +33,6 @@ Eliminate over tilted slope
 Make x range for right/left lines, eliminate out of range lines
 Calculated average x and y position of right and left line, deleted too far away points/lines
 Sorted by x value with descendant order and screen out over bounding points/lines
-In order to reduce jitter of lines, I further have following strategy:
-
-After above screening process, re-calculated average x and y position of right and left line. I memorized every average x and y position and average each frame of movie. To avoid sometime, there are too few lines in some occasion, I will check average x and y position is not too far away from history-average x/y position.
-Memorized every average slope of left/right lines. Eliminate some over tilted average slope in some too few lines occasion.
-My strategy to draw the single final left/right line:
-
-Try to find the maximum 2 x value points and average them to be a start right point. Minimum 2 x value points to be a start left point.
-If the start point of left/right line is too high for some dot line occasion, I will extrapolate it with history average slope
-End point of a single line is average x and y position of each point of left/right line. I will also filter out some average point that is too far away from history average point.
 
 ![alt text][image1]
 
